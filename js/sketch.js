@@ -18,11 +18,11 @@ function draw() {
         p.checkParticles(particles.slice(index));
     })
     
-    stroke('rgb(80, 80, 80)');
-    fill('rgba(255,255,255,0.2)');
-    ellipse((width/2)-100, height/2, 80);
-    ellipse(width/2, height/2, 80);
-    ellipse((width/2)+100, height/2, 80);
+    // stroke('rgb(80, 80, 80)');
+    // fill('rgba(255,255,255,0.2)');
+    // ellipse((width/2)-100, height/2, 80);
+    // ellipse(width/2, height/2, 80);
+    // ellipse((width/2)+100, height/2, 80);
 }
 
 class Particle {
