@@ -12,6 +12,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
+    background-color: rgba(109,104,117, 0.2);
 }
 
 h1{
