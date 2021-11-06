@@ -4,7 +4,7 @@ function setup() {
     var canvas = createCanvas(window.innerWidth, window.innerHeight);
     canvas.parent("p5container");
 
-    const particlesLength = Math.floor(window.innerWidth / 8);
+    const particlesLength = Math.floor(window.innerWidth / 4);
     for(let i = 0; i < particlesLength; i++){
         particles.push(new Particle)
     }
